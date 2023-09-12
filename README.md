@@ -23,7 +23,7 @@ $ npm run dev
 ```
 
 ### ✌&ensp;Preview
-![p](https://uupload.ir/view/project_t9qq.mov/)
+![p](https://s6.uupload.ir/files/project_cqgd.gif)
 
 
 # Getting Started with Create React App
