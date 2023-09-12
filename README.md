@@ -22,6 +22,9 @@ $ npm install lite-server@2.3 --save-dev
 $ npm run dev
 ```
 
+### ✌&ensp;Preview
+![p](https://uupload.ir/view/project_t9qq.mov/)
+
 
 # Getting Started with Create React App
 
