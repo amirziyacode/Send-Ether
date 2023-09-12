@@ -1,0 +1,99 @@
+.App-header {
+  background-color: #1d2943;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input {
+  width: 500px;
+  height: 37px;
+  color: white;
+  background-color: #ffffff0a;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  margin-bottom: 20px;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s,
+    color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s,
+    background 0.2s cubic-bezier(0.25, 0.01, 0.25, 1) 0s;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #ffffff99;
+  transition: color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s;
+}
+
+.input:hover,
+.input:focus,
+.input-group:hover .input {
+  outline: none;
+  border-color: #ffffff99;
+}
+
+.input-group:hover .label,
+.input:focus {
+  color: #6f7080c2;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.3em 0.8em 0.9em;
+  color: white;
+  margin-top: 15px;
+  background: #ad5389;
+  background: blue;
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 16px;
+}
+
+button svg {
+  margin-right: 3px;
+  transform: rotate(30deg);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button span {
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button:hover svg {
+  transform: translateX(5px) rotate(90deg);
+}
+
+button:hover span {
+  transform: translateX(7px);
+}
+
+.button {
+  margin-bottom: 40px;
+  margin-left: 13px;
+}
+
+.con {
+  width: 400px;
+}
+
+
+.senb{
+  margin-left: 60px;
+}
+
+.btn {
+  margin-left: 190px;
+  margin-top: -48px;
+}
