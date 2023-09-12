@@ -8,6 +8,21 @@ Back-end  => [Me](https://github.com/amirziyacode)
 
 This program is for sending ether🤑 between accounts running on Ganash. In the future, we will expand the program 🙂
 
+## Deployment 
+```bash
+# Clone 
+$ https://github.com/amirziyacode/Send-Ether.git
+
+# Install dependencies 
+$ npm install
+$ npm i web3
+
+# Run the app
+$ npm install lite-server@2.3 --save-dev
+$ npm run dev
+```
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
