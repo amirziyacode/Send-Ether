@@ -57,7 +57,7 @@ function App() {
     };
 
     web3.eth.getBalance(account.account).then((balance) => {
-      if (balance != 0) {
+      if (balance != 0 && web3.utils.fromWei(balance, "ether") >= obj.value) {
 
         // TODO : make a transtion ...
         if (obj.account_To && obj.value !== "") {
