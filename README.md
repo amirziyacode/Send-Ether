@@ -23,7 +23,8 @@ $ npm run dev
 ```
 
 ### ✌&ensp;Preview
-![view](https://s6.uupload.ir/files/project_cqgd.gif)
+https://github.com/amirziyacode/Send-Ether/assets/75315732/ee96d315-9007-4000-bddd-3e45d4362eb0
+
 
 
 # Getting Started with Create React App
