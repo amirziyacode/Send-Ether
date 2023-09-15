@@ -64,7 +64,7 @@ function App() {
           web3.eth.sendTransaction({
             from: obj.account_From,
             to: obj.account_To,
-            value: balance >= web3.utils.toWei(obj.value, "ether"),
+            value: web3.utils.toWei(obj.value, "ether"),
           });
           alert("Succsfuly !! ");
         } else {
