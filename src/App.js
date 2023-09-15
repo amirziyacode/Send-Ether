@@ -40,13 +40,30 @@ function App() {
     provider && template();
   }, []);
 
-  // see a block numeber from privat network
+  
+  //@Methods from  web3 js
+  // You can see all the methods of this library in this https://web3js.readthedocs.io
+  // Just Read DOCUMENTATION ... 
+  
+  
+  //TODO: see a block numeber from privat network
   async function getBlock() {
     const { web3 } = state;
     web3.eth.getBlockNumber().then((e) => alert("Block Number " + e));
   }
 
-  // send with web3
+  // TODO: for check Address from of your priavt blockchain .. 
+  async function checkAddress(){
+    const { web3 } = state;
+    const address = document.getElementById("To").value ;
+    const isAddress = web3.utils.isAddress(address);
+    if(isAddress == false) {
+      alert("Please Enter Correct Address !!!");
+    }
+    return isAddress;
+  }
+
+  //TODO: send Ether with web3
   async function SendMoney() {
     const { web3 } = state;
 
